@@ -1,3 +1,4 @@
 # Project exclude paths
 /ven/
 /Other input data/S5P_ultra_emitters_2019_2020.xls
+/venv/
