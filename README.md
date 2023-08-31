@@ -39,6 +39,16 @@ Because Enverus microdata are proprietary, we cannot include them in this reposi
 However, we include documentation in our code that we hope will be sufficient for anyone with Enverus access to reproduce our analysis and apply it to new remote sensing surveys.
 These Jupyter notebooks were originally designed and executed using Google Colab.
 
+Preprocessing_Enverus.ipynb: Converts Enverus datasets into the format needed for regional aggregation scripts.
+
+Summarize_campaign_well_and_prod_stats.ipynb: Computes campaign-specific and basin-specific summary statistics of oil and gas production and well visits
+
+Well_and_production_counting_KairosPermian.ipynb: A version of the above script tailored to anonymized data provided by Kairos Aerospace for the New Mexico Permian campaign.
+
+US-wide survey map + individual campaigns.ipynb: Produces map figures in the paper.
+
+LoadRutherfordResults.ipynb: Draws 1 million random well site samples per basin from the 100 Monte Carlo realizations produced from the Rutherford et al. simulations.
+
 ## LICENSE
 This work is subject to an MIT License, described in the LICENSE file in this folder.
 Here is additional detail on MIT licenses: https://mit-license.org/
