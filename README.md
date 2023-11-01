@@ -3,6 +3,7 @@ US oil and gas system emissions from one million aerial site measurements
 
 ## Analytica models
 Written by Evan D. Sherwin
+
 The key models used to conduct the primary analysis in the paper, e.g. the numbers underlying most figures in the paper.
 The model to run is "Regional Oil and gas Aerial Methane Synthesis model.ana" (ROAMS).
 The other two files are linked data modules, saved externally to reduce the file size, which contain 1 million well site emissions estimates from the Rutherford et al. simulation for each basin in this study.
@@ -21,6 +22,7 @@ Analytica Enterprise is available for purchase here: https://lumina.com/purchase
 
 ## Figure generation code
 Written by Evan D. Sherwin
+
 The DistributionsMain.ipynb Jupyter notebook takes in exported spreadsheet results from the Analytica model. and converts them into figures and key numbers for the paper.
 The "CDF_data" folder contains well site cumulative emissions distribution function data for fifteen main study scenarios, producing ten such CDFs for each scenario (one for each batch, averaged over 100 Monte Carlo iterations each).
 The final CDFs used in this study are the average of these 10 batches, an averaging process conducted automatically in DistributionsMain.ipynb.
@@ -42,6 +44,7 @@ $ pip install -r requirements.txt
 
 ## Campaign coverage notebooks
 Written by Evan D. Sherwin and Zhan Zhang
+
 This folder contains Jupyter notebooks used to convert Enverus microdata and aerial survey shapefiles to compute well and hydrocarbon production coverage for each scenario.
 These aggregate coverage information, e.g. the total number of well visits or total natural gas production in a given aerial survey scenario, is then incorporated into the Analytica model.
 Because Enverus microdata are proprietary, we cannot include them in this repository.
