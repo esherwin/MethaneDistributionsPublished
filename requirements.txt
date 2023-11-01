@@ -1,0 +1,15 @@
+#
+####### requirements.txt #######
+#
+###### Packages required to run simulations in code for Sherwin et al. 2023 ######
+
+jupyter
+pandas
+scipy
+matplotlib
+numpy
+pathlib
+scikit-fda
+openpyxl
+xlrd
+#
