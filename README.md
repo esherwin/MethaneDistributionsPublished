@@ -3,7 +3,7 @@ US oil and gas system emissions from one million aerial site measurements
 
 ## Analytica models
 The key models used to conduct the primary analysis in the paper, e.g. the numbers underlying most figures in the paper.
-The model to run is "Million measurements analysis 20230822.ana."
+The model to run is "Regional Oil and gas Aerial Methane Synthesis model.ana" (ROAMS).
 The other two files are linked data modules, saved externally to reduce the file size, which contain 1 million well site emissions estimates from the Rutherford et al. simulation for each basin in this study.
 
 The model contains comprehensive embedded documentation, explaining every operation in the code.
