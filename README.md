@@ -23,14 +23,17 @@ The DistributionsMain.ipynb Jupyter notebook takes in exported spreadsheet resul
 The "CDF_data" folder contains well site cumulative emissions distribution function data for fifteen main study scenarios, producing ten such CDFs for each scenario (one for each batch, averaged over 100 Monte Carlo iterations each).
 The final CDFs used in this study are the average of these 10 batches, an averaging process conducted automatically in DistributionsMain.ipynb.
 
-The remaining key results, such as scenario-wide emission levels, are saved in the "Other input data" folder, in "Key sim results 20230816b.xlsx".
-This folder also includes data reproduced from Irakulis-Loitxate et al. 2021, which are used to generate a figure in the supplementary information.
+The remaining key results, such as scenario-wide emission levels, are saved in the "Other input data" folder, in "Key sim results 20230830.xlsx".
+This folder does not include the data from Irakulis-Loitxate et al. 2021, which are used to generate a figure in the supplementary information. These data can be downloaded free of charge here: https://pubs.acs.org/doi/10.1021/acs.est.1c04873.
 Note that DistributionsMain.ipynb includes a code chunk to conduct a similar analysis using TROPOMI-derived emissions presented in Lauvaux et al. 2022, but we do not have permission to reproduce these data.
 To access the underlying data from Lauvaux et al. 2022, please submit a request at https://www.methanewatch.kayrros.com/.
 
 ### Required dependencies
 Ensure Python 3.7 or above is installed
 Packages: jupyter, pandas, scipy, matplotlib, numpy, pathlib, scikit-fda, openpyxl, xlrd
+The above packages are included in the requirements.txt file.
+To install required packages via pip, use the following command:
+$ pip install -r requirements.txt
 
 ## Campaign coverage notebooks
 This folder contains Jupyter notebooks used to convert Enverus microdata and aerial survey shapefiles to compute well and hydrocarbon production coverage for each scenario.
