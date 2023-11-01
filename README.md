@@ -31,8 +31,11 @@ To access the underlying data from Lauvaux et al. 2022, please submit a request 
 ### Required dependencies
 Ensure Python 3.7 or above is installed
 Packages: jupyter, pandas, scipy, matplotlib, numpy, pathlib, scikit-fda, openpyxl, xlrd
+
 The above packages are included in the requirements.txt file.
+
 To install required packages via pip, use the following command:
+
 $ pip install -r requirements.txt
 
 ## Campaign coverage notebooks
