@@ -1,6 +1,6 @@
 # Project exclude paths
 /Other input data/S5P_ultra_emitters_2019_2020.xls
-#/Other input data/Irakulis data 20211229.xlsx
+/Other input data/Irakulis data 20211229.xlsx
 /venv/
 /ven/
 #/Analytica models/
