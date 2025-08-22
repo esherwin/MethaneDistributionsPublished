@@ -1,3 +1,7 @@
+CDF_data/* filter=lfs diff=lfs merge=lfs -text
+Analytica[[:space:]]models/Rutherford[[:space:]]Denver,[[:space:]]Uinta,[[:space:]]Fort[[:space:]]Worth[[:space:]]20230821.ana filter=lfs diff=lfs merge=lfs -text
+[[:space:]]Rutherford[[:space:]]San[[:space:]]Joaquin,[[:space:]]Permian,[[:space:]]Appalachian[[:space:]]20230821.ana filter=lfs diff=lfs merge=lfs -text
+100k[[:space:]]random[[:space:]]samples/100k[[:space:]]saved[[:space:]]random[[:space:]]samples[[:space:]]from[[:space:]]each[[:space:]]distribution.csv filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.xlsx filter=lfs diff=lfs merge=lfs -text
