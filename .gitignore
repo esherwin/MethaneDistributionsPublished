@@ -2,8 +2,5 @@ version https://git-lfs.github.com/spec/v1
 oid sha256:3657776225fa3383af54e1a2bbb0f568d576f1c51af37084ea843424520c6bd8
 size 324
 /Figures/
-/Other input data/Intermediate files/
-/Other input data/Originally published (for files that changed in the correction)/
-/Campaign coverage notebooks/Originally published (for files that changed in the correction)/
-/Analytica models/Originally published (for files that changed in the correction)/
+/CDF_data/Aggregated CDFs/
 /venv/
