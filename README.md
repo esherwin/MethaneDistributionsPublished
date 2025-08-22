@@ -1,7 +1,11 @@
 # ReadMe Sherwin et al. 2024
-US oil and gas system emissions from one million aerial site measurements
+Code for "US oil and gas system emissions from one million aerial site measurements", published in Nature.
 
-Includes documentation for the 2025 correction to this paper.
+Sherwin, E.D., Rutherford, J.S., Zhang, Z., Chen, Y., Wetherley, E.B., Yakovlev, P.V., Berman, E.S.F.,  Jones, B.B., Cusworth, D.H., Thorpe, A.K., Ayasse, A.K., Duren, R.M., Brandt, A.R. US oil and gas system emissions from nearly  one million aerial site measurements. Nature. 627, 328-334 (2024)
+
+Includes results and documentation for the 2025 correction to this paper.
+
+See https://zenodo.org/records/10064774 for the originally published data and code.
 
 ## Analytica models
 The key models used to conduct the primary analysis in the paper, e.g. the numbers underlying most figures in the paper.
@@ -34,6 +38,11 @@ To access the underlying data from Lauvaux et al. 2022, please submit a request 
 Ensure Python 3.13 or above is installed
 
 Package requirements documented in requirements.txt
+
+For the Analytica model, use Version 6.5.11.266 or later for best performance.
+
+### File structure
+Note that all Analytica, CSV, and XLSX files are stored on Git in large file storage.
 
 ## Campaign coverage notebooks
 This folder contains Jupyter notebooks used to convert Enverus microdata and aerial survey shapefiles to compute well and hydrocarbon production coverage for each scenario.
