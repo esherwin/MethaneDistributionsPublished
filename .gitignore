@@ -1,6 +1,8 @@
 version https://git-lfs.github.com/spec/v1
 oid sha256:3657776225fa3383af54e1a2bbb0f568d576f1c51af37084ea843424520c6bd8
 size 324
-/Figures/
-/CDF_data/Aggregated CDFs/
+Figures/*
+!Figures/.gitkeep
+CDF_data/Aggregated CDFs/*
+!CDF_data/Aggregated CDFs/.gitkeep
 /venv/
