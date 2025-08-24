@@ -1,4 +1,6 @@
-﻿$ErrorActionPreference = "Stop"
+﻿# Prepared in collaboration with ChatGPT5 via Lawrence Berkeley National Laboratory's CBorg interface
+
+$ErrorActionPreference = "Stop"
 
 Write-Host "=== Zenodo Release Preparation Script ===" -ForegroundColor Cyan
 
