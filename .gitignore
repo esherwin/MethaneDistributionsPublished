@@ -6,3 +6,4 @@ Figures/*
 CDF_data/Aggregated CDFs/*
 !CDF_data/Aggregated CDFs/.gitkeep
 /venv/
+full_release_*.zip
