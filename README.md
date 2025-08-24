@@ -10,7 +10,7 @@ See https://zenodo.org/records/10064774 for the originally published data and co
 ## Analytica models
 The key models used to conduct the primary analysis in the paper, e.g. the numbers underlying most figures in the paper.
 The model to run is "Regional Oil and gas Aerial Methane Synthesis model.ana."
-The other two files are linked data modules, saved externally to reduce the file size, which contain 1 million well site emissions estimates from the Rutherford et al. simulation for each basin in this study.
+The other two files are linked data modules, saved externally to reduce the file size, which contain 1 million simulated well site emissions estimates from the Bottom-up Analyzer for Source Emissions (BASE) model from Rutherford et al. for each basin in this study.
 
 The model contains comprehensive embedded documentation, explaining every operation in the code.
 Code is structured in an influence diagram, displaying the underlying relationships between variables.
@@ -51,6 +51,15 @@ Because Enverus microdata are proprietary, we cannot include them in this reposi
 However, we include documentation in our code that we hope will be sufficient for anyone with Enverus access to reproduce our analysis and apply it to new remote sensing surveys.
 These Jupyter notebooks were originally designed and executed using Google Colab.
 
+## Archiving for Zenodo
+To archive the full script, including files in Large File Storage, for publication on Zenodo, use the prepare_zenodo.ps1 PowerShell script. This script excludes all files in the .gitignore file and retains the full folder structure.  
+
 ## LICENSE
 This work is subject to an MIT License, described in the LICENSE file in this folder.
 Here is additional detail on MIT licenses: https://mit-license.org/
+
+## Funding
+The initially published version of this model was funded by the Stanford Natural Gas Initiative, an industry consortium that supports independent research at Stanford University.
+The correction was partially supported by the California Energy Commission (SUMMATION project, agreement number PIR-17-015). It does not necessarily represent the views of the Energy Commission, its employees, or the State of California. The Energy Commission, the State of California, its employees, contractors, and subcontractors make no warranty, express or implied, and assume no legal liability for the information in this report; nor does any party represent that the uses of this information will not infringe upon privately owned rights. This paper has not been approved or disapproved by the California Energy Commission, nor has the California Energy Commission passed upon the accuracy or adequacy of the information in this paper. This repository has been authored by authors at Lawrence Berkeley National Laboratory under Contract No. DE-AC02-05CH11231 with the U.S. Department of Energy. The U.S. Government retains a non-exclusive, paid-up, irrevocable, world-wide license to publish or reproduce the published form of this repository, or allow others to do so, for U.S. Government purposes.
+
+See the published manuscript for other acknowledgements, including those related to data sources.
