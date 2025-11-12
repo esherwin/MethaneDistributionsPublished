@@ -60,6 +60,8 @@ To archive the full script, including files in Large File Storage, for publicati
 This work is subject to an MIT License, described in the LICENSE file in this folder.
 Here is additional detail on MIT licenses: https://mit-license.org/
 
+The proprietary data from Enverus, Inc. included in this software, all of which is anonymized and/or aggregated, is subject to the terms and conditions of its own license, see https://www.enverus.com/terms-conditions/.
+
 ## Funding
 The initially published version of this model was funded by the Stanford Natural Gas Initiative, an industry consortium that supports independent research at Stanford University.
 The correction was partially supported by the California Energy Commission (SUMMATION project, agreement number PIR-17-015). It does not necessarily represent the views of the Energy Commission, its employees, or the State of California. The Energy Commission, the State of California, its employees, contractors, and subcontractors make no warranty, express or implied, and assume no legal liability for the information in this report; nor does any party represent that the uses of this information will not infringe upon privately owned rights. This paper has not been approved or disapproved by the California Energy Commission, nor has the California Energy Commission passed upon the accuracy or adequacy of the information in this paper. This repository has been authored by authors at Lawrence Berkeley National Laboratory under Contract No. DE-AC02-05CH11231 with the U.S. Department of Energy. The U.S. Government retains a non-exclusive, paid-up, irrevocable, world-wide license to publish or reproduce the published form of this repository, or allow others to do so, for U.S. Government purposes.
