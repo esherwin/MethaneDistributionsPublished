@@ -56,6 +56,20 @@ These Jupyter notebooks were originally designed and executed using Google Colab
 ## Archiving for Zenodo
 To archive the full script, including files in Large File Storage, for publication on Zenodo, use the prepare_zenodo.ps1 PowerShell script. This script excludes all files in the .gitignore file and retains the full folder structure.  
 
+Here are Terminal commands to conduct a full archive for Zenodo, including large files:
+
+`.\prepare_zenodo.ps1`
+
+This will create a ZIP file of the full release named `full_release_YYYYMMDD.zip`, where YYYYMMDD are the date on which 
+the script is run.
+
+`gh release create vX.Y.Z full_release_YYYYMMDD.zip --title "Release vX.Y.Z: ..." --notes "Release notes..."`
+
+This will create a new release in GitHub with a tag of vX.Y.Z, the associated title and release notes, 
+and the full release ZIP attached.
+
+Wait 5 minutes. Copy-paste Zenodo DOI Markdown badge (including the badge image) into `README.md`.
+
 ## LICENSE
 This work is subject to an MIT License, described in the LICENSE file in this folder.
 Here is additional detail on MIT licenses: https://mit-license.org/
