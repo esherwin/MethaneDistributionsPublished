@@ -5,7 +5,7 @@ Sherwin, E.D., Rutherford, J.S., Zhang, Z., Chen, Y., Wetherley, E.B., Yakovlev,
 
 Includes results and documentation for the 2025 correction to this paper.
 
-Available on Zenodo here [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17594631.svg)](https://doi.org/10.5281/zenodo.17594631).
+Available on Zenodo here [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17611506.svg)](https://doi.org/10.5281/zenodo.17611506).
 
 See https://zenodo.org/records/10064774 for the originally published data and code.
 
