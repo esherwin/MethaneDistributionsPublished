@@ -9,3 +9,5 @@ Rutherford[[:space:]]San[[:space:]]Joaquin,[[:space:]]Permian,[[:space:]]Appalac
 *.iml filter=lfs diff=lfs merge=lfs -text
 *.xml filter=lfs diff=lfs merge=lfs -text
 *.ana filter=lfs diff=lfs merge=lfs -text
+*.ipynb eol=lf
+*.gitattributes eol=lf
